@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.svg.ico">
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); </style>
+    
+  </head>
+  <body>
+    <div class="heading">Check Fastest Weather In Your City</div>
+    <div class="card">
+      <div class="search">
+        <input type="text" class="search_bar Search_enter" placeholder="Search City" />
+        <button class="searchbutton"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <div class="weather loading">
+        <h2 class="city">Weather in Jaipur</h2>
+        <div class="tempreture">26°C</div>
+        <img src="" alt="Weather_img" class="icon" />
+        <div class="description">Cloudy</div>
+        <div class="humidity">Humidity : 34</div>
+        <div class="wind">Speed : 34km/hr</div>
+      </div>
+    </div>
+    <p class="tagline">Made By Gaurav Agrawal</p>
+    <script src="index.js" ></script>
+  </body>
+</html>
